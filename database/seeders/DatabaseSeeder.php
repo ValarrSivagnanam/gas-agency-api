@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
     {
        $this->call([
             AdminUserSeeder::class,
-            CylinderSeeder::class,
+            // CylinderSeeder::class,
         ]);
     }
 }
